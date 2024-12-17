@@ -1,0 +1,407 @@
+﻿  client.cpp
+  main.cpp
+C:\Users\Admin\source\repos\main\main\client.cpp(195,6): error C2084: функция "void update_client(char *,Client *)" уже имеет текст реализации
+      C:\Users\Admin\source\repos\main\main\client.cpp(89,6):
+      см. предыдущее определение "update_client"
+  
+C:\Users\Admin\source\repos\main\main\product.h(16,12): error C3646: author: неизвестный спецификатор переопределения
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(16,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(17,12): error C3646: title: неизвестный спецификатор переопределения
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(17,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(27,27): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(29,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(29,31): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(30,12): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,6): error C2182: "addBook": недопустимое использование "void"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,14): error C2065: vector: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,21): error C2275: "Book": ожидается выражение вместо типа
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,28): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(34,43): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  order.cpp
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(34,55): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,6): error C2182: "sort_by_prices": недопустимое использование "void"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,21): error C2065: vector: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,28): error C2275: "Book": ожидается выражение вместо типа
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,35): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(36,44): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(37,44): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(38,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(38,35): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\order.h(22,11): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\order.h(22,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\order.h(22,32): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\main\main\main.cpp(34,13): error C2660: menu_Books: функция не принимает 2 аргументов
+      C:\Users\Admin\source\repos\main\main\product.h(27,6):
+       см. объявление "menu_Books"
+      C:\Users\Admin\source\repos\main\main\main.cpp(34,13):
+      при попытке сопоставить список аргументов "(int *, Book *)"
+  
+C:\Users\Admin\source\repos\main\main\product.h(16,12): error C3646: author: неизвестный спецификатор переопределения
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(16,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(17,12): error C3646: title: неизвестный спецификатор переопределения
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(17,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(27,27): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(29,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(29,31): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(30,12): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,6): error C2182: "addBook": недопустимое использование "void"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,14): error C2065: vector: необъявленный идентификатор
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,21): error C2275: "Book": ожидается выражение вместо типа
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,28): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(34,43): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(34,55): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,6): error C2182: "sort_by_prices": недопустимое использование "void"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,21): error C2065: vector: необъявленный идентификатор
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,28): error C2275: "Book": ожидается выражение вместо типа
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,35): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(36,44): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(37,44): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(38,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(38,35): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\order.h(22,11): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\order.h(22,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\order.h(22,32): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "order.cpp")
+  
+C:\Users\Admin\source\repos\main\main\order.cpp(27,13): error C2664: "void insert_order(Order *,Client *,book *)": невозможно преобразовать аргумент 3 из "Book *" в "book *"
+      C:\Users\Admin\source\repos\main\main\order.cpp(27,70):
+      Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Users\Admin\source\repos\main\main\order.h(29,6):
+       см. объявление "insert_order"
+      C:\Users\Admin\source\repos\main\main\order.cpp(27,13):
+      при попытке сопоставить список аргументов "(Order *, Client *, Book *)"
+  
+C:\Users\Admin\source\repos\main\main\order.cpp(57,39): error C2039: "details": не является членом "Order".
+      C:\Users\Admin\source\repos\main\main\order.h(19,8):
+       см. объявление "Order"
+  
+C:\Users\Admin\source\repos\main\main\order.cpp(58,38): error C2039: "details": не является членом "Order".
+      C:\Users\Admin\source\repos\main\main\order.h(19,8):
+       см. объявление "Order"
+  
+C:\Users\Admin\source\repos\main\main\order.cpp(84,11): error C2664: "int search_Book(const char *,const int)": невозможно преобразовать аргумент 2 из "Book *" в "const int"
+      C:\Users\Admin\source\repos\main\main\order.cpp(84,36):
+      Не существует контекста, в котором такое преобразование возможно
+      C:\Users\Admin\source\repos\main\main\product.h(34,5):
+       см. объявление "search_Book"
+      C:\Users\Admin\source\repos\main\main\order.cpp(84,11):
+      при попытке сопоставить список аргументов "(char [40], Book *)"
+  
+C:\Users\Admin\source\repos\main\main\order.cpp(115,29): error C2039: "details": не является членом "Order".
+      C:\Users\Admin\source\repos\main\main\order.h(19,8):
+       см. объявление "Order"
+  
+C:\Users\Admin\source\repos\main\main\order.cpp(116,29): error C2039: "details": не является членом "Order".
+      C:\Users\Admin\source\repos\main\main\order.h(19,8):
+       см. объявление "Order"
+  
+C:\Users\Admin\source\repos\main\main\order.cpp(117,29): error C2039: "details": не является членом "Order".
+      C:\Users\Admin\source\repos\main\main\order.h(19,8):
+       см. объявление "Order"
+  
+C:\Users\Admin\source\repos\main\main\order.cpp(118,29): error C2039: "details": не является членом "Order".
+      C:\Users\Admin\source\repos\main\main\order.h(19,8):
+       см. объявление "Order"
+  
+  product.cpp
+C:\Users\Admin\source\repos\main\main\product.h(16,12): error C3646: author: неизвестный спецификатор переопределения
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(16,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(17,12): error C3646: title: неизвестный спецификатор переопределения
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(17,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(27,27): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(29,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(29,31): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(30,12): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,6): error C2182: "addBook": недопустимое использование "void"
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,14): error C2065: vector: необъявленный идентификатор
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,21): error C2275: "Book": ожидается выражение вместо типа
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(33,28): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(34,43): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(34,55): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,6): error C2182: "sort_by_prices": недопустимое использование "void"
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,21): error C2065: vector: необъявленный идентификатор
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,28): error C2275: "Book": ожидается выражение вместо типа
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(35,35): error C2065: books: необъявленный идентификатор
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(36,44): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(37,44): error C2061: синтаксическая ошибка: идентификатор "vector"
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(38,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.h(38,35): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "product.cpp")
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(39,13): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+C:\Users\Admin\source\repos\main\main\product.cpp(42,13): error C3861: displayBooks: идентификатор не найден
+C:\Users\Admin\source\repos\main\main\product.cpp(49,19): error C2664: "int search_Book(const char *,const int)": невозможно преобразовать аргумент 2 из "std::vector<Book,std::allocator<Book>>" в "const int"
+      C:\Users\Admin\source\repos\main\main\product.cpp(49,44):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\Admin\source\repos\main\main\product.h(34,5):
+       см. объявление "search_Book"
+      C:\Users\Admin\source\repos\main\main\product.cpp(49,19):
+      при попытке сопоставить список аргументов "(char [40], std::vector<Book,std::allocator<Book>>)"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(61,13): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+C:\Users\Admin\source\repos\main\main\product.cpp(62,13): error C3861: displayBooks: идентификатор не найден
+C:\Users\Admin\source\repos\main\main\product.cpp(69,13): error C2660: update_Book: функция не принимает 2 аргументов
+      C:\Users\Admin\source\repos\main\main\product.h(36,6):
+       см. объявление "update_Book"
+      C:\Users\Admin\source\repos\main\main\product.cpp(69,13):
+      при попытке сопоставить список аргументов "(char [40], std::vector<Book,std::allocator<Book>>)"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(76,13): error C2660: delete_Book: функция не принимает 2 аргументов
+      C:\Users\Admin\source\repos\main\main\product.h(37,6):
+       см. объявление "delete_Book"
+      C:\Users\Admin\source\repos\main\main\product.cpp(76,13):
+      при попытке сопоставить список аргументов "(char [40], std::vector<Book,std::allocator<Book>>)"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(79,19): error C2664: "int get_cheapest_Book(const int)": невозможно преобразовать аргумент 1 из "std::vector<Book,std::allocator<Book>>" в "const int"
+      C:\Users\Admin\source\repos\main\main\product.cpp(79,37):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\Admin\source\repos\main\main\product.h(38,5):
+       см. объявление "get_cheapest_Book"
+      C:\Users\Admin\source\repos\main\main\product.cpp(79,19):
+      при попытке сопоставить список аргументов "(std::vector<Book,std::allocator<Book>>)"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(119,6): error C2365: addBook: переопределение; предыдущим определением было "переменная данных"
+      C:\Users\Admin\source\repos\main\main\product.h(33,6):
+       см. объявление "addBook"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(127,30): error C2039: "author": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(127,9): error C2672: "getline": не найдена соответствующая перегруженная функция
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(82,32):
+      может быть "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\Admin\source\repos\main\main\product.cpp(127,9):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)": ожидаются аргументы 2 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(75,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          C:\Users\Admin\source\repos\main\main\product.cpp(127,9):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": ожидаются аргументы 3 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(68,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\Admin\source\repos\main\main\product.cpp(127,9):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)": ожидаются аргументы 2 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(25,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          C:\Users\Admin\source\repos\main\main\product.cpp(127,9):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": ожидаются аргументы 3 — 1 предоставлены
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(128,22): error C2039: "author": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(128,46): error C2039: "author": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(129,17): error C2039: "author": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(137,30): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(137,9): error C2672: "getline": не найдена соответствующая перегруженная функция
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(82,32):
+      может быть "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\Admin\source\repos\main\main\product.cpp(137,9):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)": ожидаются аргументы 2 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(75,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          C:\Users\Admin\source\repos\main\main\product.cpp(137,9):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": ожидаются аргументы 3 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(68,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\Admin\source\repos\main\main\product.cpp(137,9):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)": ожидаются аргументы 2 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(25,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          C:\Users\Admin\source\repos\main\main\product.cpp(137,9):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": ожидаются аргументы 3 — 1 предоставлены
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(138,22): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(138,45): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(139,17): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(171,47): error C2039: "author": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(171,72): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(202,66): error C2039: "author": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(202,93): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(217,26): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(244,7): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(250,6): error C2365: sort_by_prices: переопределение; предыдущим определением было "переменная данных"
+      C:\Users\Admin\source\repos\main\main\product.h(35,6):
+       см. объявление "sort_by_prices"
+  
+C:\Users\Admin\source\repos\main\main\product.cpp(276,31): error C2039: "title": не является членом "Book".
+      C:\Users\Admin\source\repos\main\main\product.h(14,8):
+       см. объявление "Book"
+  
+  Создание кода...
